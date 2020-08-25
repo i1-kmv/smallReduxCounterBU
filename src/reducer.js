@@ -1,6 +1,6 @@
 
 
-const reducer = (state = 8, action) => {
+const reducer = (state = 0, action) => {
 
     switch (action.type) {
         case 'RND':
